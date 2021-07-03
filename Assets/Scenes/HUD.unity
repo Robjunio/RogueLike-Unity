@@ -219,6 +219,7 @@ GameObject:
   - component: {fileID: 827757849}
   - component: {fileID: 827757848}
   - component: {fileID: 827757850}
+  - component: {fileID: 827757851}
   m_Layer: 0
   m_Name: ZombieCactus
   m_TagString: Enemy
@@ -350,9 +351,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7547264ebe23d114ca212eb8cb150193, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 4
   MaxHealth: 10
   damage: 1
+  attackDelay: 1
+  minimalDistanceAttack: 2
+  attackSpeed: 2
+--- !u!95 &827757851
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 827757845}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 42bb786bb099ad44f8ffd3fc3f98b0d3, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &904933013
 GameObject:
   m_ObjectHideFlags: 0
@@ -469,6 +492,8 @@ GameObject:
   - component: {fileID: 1302173995}
   - component: {fileID: 1302173997}
   - component: {fileID: 1302173998}
+  - component: {fileID: 1302174000}
+  - component: {fileID: 1302173999}
   m_Layer: 0
   m_Name: PlayerPivot
   m_TagString: Player
@@ -554,7 +579,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1302173991}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.9, y: 0.7479508, z: 0}
+  m_LocalPosition: {x: 6.99, y: 0.7479508, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_Children:
   - {fileID: 904933015}
@@ -619,6 +644,45 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39285a4b512477f4389abff90458db1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!61 &1302173999
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1302173991}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.14, y: 0.21}
+    newSize: {x: 0.14, y: 0.21}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.14, y: 0.21}
+  m_EdgeRadius: 0
+--- !u!114 &1302174000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1302173991}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ce20727ea317ad43a0d9677b6c3ada1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MaxHealth: 3
 --- !u!1 &2074580749
 GameObject:
   m_ObjectHideFlags: 0
