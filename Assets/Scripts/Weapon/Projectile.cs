@@ -35,7 +35,7 @@ public class Projectile : MonoBehaviour
     {
         if(collision.CompareTag(Tags.Enemy.ToString()))
         {
-            Destroy(collision.gameObject);
+            collision.GetComponent<Enemy>().ReceiveHit(1);
             gameObject.SetActive(false);
         }
     }

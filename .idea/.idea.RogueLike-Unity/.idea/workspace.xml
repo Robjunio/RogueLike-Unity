@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5e1ae53-1625-4ec5-b666-d14d2810fc38" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.RogueLike-Unity/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.RogueLike-Unity/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Player/PlayerPivot.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Player/PlayerPivot.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RogueLike-Unity/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RogueLike-Unity/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/HUD.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/HUD.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Input/Input.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Input/Input.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Input/Input.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Input/Input.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Input/Input.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Input/Input.inputactions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TagList.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TagList.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Weapon/Projectile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Weapon/Projectile.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Sprites/Enemies/zombie_n_skeleton2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Enemies/zombie_n_skeleton2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,10 +27,12 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemies/Enemy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Weapon/Projectile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemies/CactusEnemy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Weapon/PlayerWeapon.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerHealth.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerAnimation.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TagList.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -44,6 +44,9 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/TagList.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Weapon/PlayerWeapon.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Weapon/Projectile.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/Enemy.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/CactusEnemy.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerHealth.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1uiScC3Afdcf6mbuUL93CN28gf2" />
@@ -90,7 +93,8 @@
       <option name="presentableId" value="Default" />
       <updated>1625146998908</updated>
       <workItem from="1625148581895" duration="4761000" />
-      <workItem from="1625228747728" duration="7983000" />
+      <workItem from="1625228747728" duration="8243000" />
+      <workItem from="1625315624550" duration="7238000" />
     </task>
     <servers />
   </component>
